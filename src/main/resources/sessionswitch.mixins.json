@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "example.sessionswitch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientAccessor",
+    "ProfileKeysMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

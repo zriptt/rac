@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "sessionswitch",
+  "version": "${version}",
+  "name": "Session Switch",
+  "description": "Client-side screen for logging in with your own Minecraft session ID (access token). Nothing is saved to disk or sent anywhere except Mojang's profile endpoint.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["example.sessionswitch.SessionSwitchMod"]
+  },
+  "mixins": ["sessionswitch.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
